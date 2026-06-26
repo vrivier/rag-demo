@@ -1,0 +1,5 @@
+C:\Users\vrivi\OneDrive\Bureau\assistant-rag-rh\data\fictive-hr-data
+C:\Users\vrivi\OneDrive\Bureau\assistant-rag-rh\chroma_db
+documents_rh
+--embeddings_cache_folder
+C:\Users\vrivi\.cache\huggingface\hub
