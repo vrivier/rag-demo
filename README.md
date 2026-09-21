@@ -1,6 +1,6 @@
 #### Description :
 
-MVP d'assistant RAG RH permettant aux salariés d'une entreprise d'accéder facilement aux politiques RH de leur entreprise. 
+Assistant RAG RH permettant aux salariés d'une entreprise d'accéder facilement aux politiques RH de leur entreprise. 
 
 #### Impact métier visé : 
 Allègement de la charge de travail RH de réponse aux questions du personnel de l'entreprise.  
