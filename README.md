@@ -30,7 +30,7 @@ ChromaDB
  ↓  
 Retriever  
  ↓  
-LLM
+LLM  
  ↓  
 Réponse + citations
 
@@ -53,7 +53,6 @@ llama-index, OpenAI
 
 #### Installation : 
 
-installation Ollama (https://ollama.com) 
 ```bash
 git clone https://github.com/vrivier/rag-demo
 cd assistant-rag-rh  
