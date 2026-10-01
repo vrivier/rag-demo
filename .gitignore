@@ -1,2 +1,6 @@
 venv-rag-rh
 data/rapports-rse
+__pycache__/
+token.txt
+evaluation
+.env

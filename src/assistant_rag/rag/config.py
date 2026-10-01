@@ -24,6 +24,11 @@ def _parse():
         help="Name of the collection to request.", 
     )
     parser.add_argument(
+        "-m", "--llm_model",
+        help="OpenAI model used to generate answers (requires OPENAI_API_KEY).",
+        default="gpt-5.4-mini",
+    )
+    parser.add_argument(
         "-e", "--embeddings_cache_folder", 
         help="Embedding model cache folder, which might be needed for model loading.", 
         default=None,
