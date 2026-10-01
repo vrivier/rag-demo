@@ -30,7 +30,7 @@ ChromaDB
  ↓  
 Retriever  
  ↓  
-Qwen3 4B  
+LLM
  ↓  
 Réponse + citations
 
@@ -39,13 +39,13 @@ Réponse + citations
 OCR PyMuPDF  
 Chunking : 1024 tokens, 20 tokens overlap  
 Modèle d'embeddings : bge-small-en-v1.5  
-LLM : qwen 3 4b  
+LLM : gpt-5.4-mini  
 top k = 2  
 Prompt système : réponse en français
 
 #### Stack : 
 
-llama-index, Ollama
+llama-index, OpenAI
 
 #### Données : 
 
@@ -55,10 +55,10 @@ llama-index, Ollama
 
 installation Ollama (https://ollama.com) 
 ```bash
-git clone https://github.com/vrivier/rag-demo   
-ollama pull qwen3:4b  
+git clone https://github.com/vrivier/rag-demo
 cd assistant-rag-rh  
 pip install -r requirements.txt
+pip install -e .
 ```
 
 #### Construction d'index :  
@@ -74,12 +74,6 @@ python src\assistant_rag\rag\chat.py <base_vectorielle> <nom_collection> <option
 
 <img width="1023" height="256" alt="Capture d&#39;écran 2026-06-29 102545" src="https://github.com/user-attachments/assets/046aed13-203a-49d4-916e-cb2ed3e9eb0c" />
 <img width="924" height="425" alt="Capture d&#39;écran 2026-06-29 102557" src="https://github.com/user-attachments/assets/62c057f1-0a2d-4e78-96f7-a95f5adcecfa" />
-
-#### Configuration requise : 
-GPU, 5Gb d'espace disque pour le LLM
-
-#### RAG local :
-Pas de coûts, confidentialité des données
 
 #### Pistes d'amélioration : 
 Interface streamlit  
