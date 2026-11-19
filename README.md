@@ -24,7 +24,7 @@ PDF
  ↓  
 Chunking  
  ↓  
-Embeddings BGE-small  
+Embedding  
  ↓  
 ChromaDB  
  ↓  
@@ -38,7 +38,7 @@ Réponse + citations
 
 OCR PyMuPDF  
 Chunking : 1024 tokens, 20 tokens overlap  
-Modèle d'embeddings : bge-small-en-v1.5  
+Modèle d'embeddings : bge-m3  
 LLM : gpt-5.4-mini  
 top k = 2  
 Prompt système : réponse en français
